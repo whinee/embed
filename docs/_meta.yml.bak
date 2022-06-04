@@ -1,0 +1,9 @@
+generated:
+  docs:
+    files:
+    - docs/license.md
+    - docs/README.md
+    folders: []
+  pdoc:
+    files: []
+    folders: []

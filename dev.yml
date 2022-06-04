@@ -1,0 +1,67 @@
+docs:
+  input: raw_docs
+  op: docs
+
+md_vars:
+  global:
+    project_name: embed
+    repo_name: embed
+    site: embed.whinyaan.xyz
+    organization: whinee
+    user: whinee
+    dc_acc: whi_ne | whinyaan.xyz#5135
+    dc_link: https://discord.com/users/867696753434951732
+    dc_inv: JbAtUxGcJZ
+    mail_acc: whinyaan@pm.me
+    mail_link: mailto:whinyaan@pm.me
+
+  local:
+    README:
+      title: embed
+      desc: |-
+        Base64 Embeds!
+
+rules:
+  del:
+  repl:
+    'src="https://${site}/assets':
+      - 'src="./assets'
+    "src='https://${site}/assets":
+      - "src='./assets"
+    "](https://${site}/assets":
+      - "](./assets"
+
+requirements:
+  dev: dev_req.txt
+
+env:
+  dev:
+    req:
+      - dev
+
+license:
+  year: 2022
+  type: MIT
+  cholder:
+    Switchblade:
+      user: SwitchbladeBot
+      projects:
+        SwitchbladeBot:
+          invidget:
+            year: 2019
+            platform: Github
+    whi_ne:
+      user: whinee
+      projects:
+        whinee:
+          inviter:
+            year: 2022
+            platform: Github
+        hyaku-dl:
+          hyaku:
+            year: 2022
+            platform: Github
+        Pirate-Kings:
+          YAMHL:
+            year: 2022
+            platform: Github

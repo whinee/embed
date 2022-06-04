@@ -1,0 +1,32 @@
+{
+  "name": "invidget",
+  "version": "1.0.0",
+  "description": "SVG invite widgets that look just like the ones on the Discord client!",
+  "main": "src/index.js",
+  "dependencies": {
+    "@sentry/node": "^6.13.2",
+    "dd-trace": "^1.4.1",
+    "express": "^4.17.1",
+    "sharp": "^0.30.5",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --exec node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whinee/inviter.git"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "author": "whinee",
+  "license": "MIT"
+}
